@@ -5,10 +5,10 @@
 <title>TEST-SIFP_fundedprojects_032018_final-unmerged-multiprojects_w-funding&amp;icons - Google Fusion Tables</title>
 <style type="text/css">
 html, body, #googft-mapCanvas {
-  height: 0px;
+  height: 380px;
   margin: 0;
   padding: 0;
-  width: 0px;
+  width: 640px;
 }
 #googft-legend{background-color:#fff;border:1px solid #000;font-family:Arial,sans-serif;font-size:12px;margin:5px;padding:10px 10px 8px}#googft-legend p{font-weight:bold;margin-top:0}#googft-legend div{margin-bottom:5px}.googft-legend-swatch{border:1px solid;float:left;height:12px;margin-right:8px;width:20px}.googft-legend-range{margin-left:0}.googft-dot-icon{margin-right:8px}.googft-paddle-icon{height:24px;left:-8px;margin-right:-8px;position:relative;vertical-align:middle;width:24px}.googft-legend-source{margin-bottom:0;margin-top:8px}.googft-legend-source a{color:#666;font-size:11px}
 </style>
@@ -24,8 +24,8 @@ html, body, #googft-mapCanvas {
       viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
-    mapDiv.style.width = isMobile ? '100%' : '0px';
-    mapDiv.style.height = isMobile ? '100%' : '0px';
+    mapDiv.style.width = isMobile ? '100%' : '640px';
+    mapDiv.style.height = isMobile ? '100%' : '380px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(54.70975172619035, -93.50883428212887),
       zoom: 4,
@@ -74,14 +74,14 @@ html, body, #googft-mapCanvas {
   <div id="googft-mapCanvas"></div>
   <input id="googft-legend-open" style="display:none" type="button" value="Legend">
   <div id="googft-legend">
-    <p id="googft-legend-title">Institution type #</p>
+    <p id="googft-legend-title">Institution type</p>
     <div>
       <img class="googft-paddle-icon" src="http://maps.google.com/mapfiles/ms/micons/yellow-dot.png"/>
-      <span class="googft-legend-range">1 to 2</span>
+      <span class="googft-legend-range">College</span>
     </div>
     <div>
       <img class="googft-paddle-icon" src="http://maps.google.com/mapfiles/ms/micons/blue-dot.png"/>
-      <span class="googft-legend-range">2 to 3</span>
+      <span class="googft-legend-range">University</span>
     </div>
     <input id="googft-legend-close" style="display:none" type="button" value="Hide">
   </div>
